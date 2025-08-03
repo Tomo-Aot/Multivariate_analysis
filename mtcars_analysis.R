@@ -49,6 +49,9 @@ plot(m1, which = 3)
 plot(m1, which = 4)
 plot(m1, which = 5)
 
+# Multicollinearity
+# The Variance Inflation Factor (VIF) is an index
+# used to detect multicollinearity among the explanatory variables
 car::vif(m1)
 
 
